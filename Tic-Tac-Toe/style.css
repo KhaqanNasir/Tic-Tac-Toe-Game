@@ -1,0 +1,34 @@
+*{
+    font-size: 50px;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+body{
+    background-color: #EDF0DA;   
+}
+.box{
+    background-color: #8F5C38;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: none;
+    border: 4px solid #000;
+    font-size: 80px;
+    color: #EDF0DA;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#winner{
+    color: green;
+}
